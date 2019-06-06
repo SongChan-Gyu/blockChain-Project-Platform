@@ -70,50 +70,22 @@ class MainPage extends Component {
                         </EndpointHeader>
                     </MenuItem>
                     <MenuItem as={NavLink} to='/admin/dashboard' >
-                        <Icon name='dashboard' />
-                        dashboard
+                        <Icon name='alarm' />
+                        알람
                     </MenuItem>
                     <MenuItem as={NavLink} to='/admin/containers' >
                         <Icon name='th list' />
-                       containers
+                       로그아웃
                     </MenuItem>
                     <MenuItem as={NavLink} to='/admin/swarms' >
                         <Icon name='server' />
-                        swarms
+                        프로젝트 개설
                     </MenuItem>
                     <MenuItem as={NavLink} to='/admin/services' >
                         <Icon name='microchip' />
-                        services
+                        프로젝트 관리
                     </MenuItem>
-                    <MenuItem as={NavLink} to='/admin/images'>
-                        <Icon name='clone'/>
-                        images
-                    </MenuItem>
-                    <MenuItem as={NavLink} to='/admin/networks'>
-                        <Icon name='sitemap'/>
-                        networks
-                    </MenuItem>
-                    <MenuItem as={NavLink} to='/admin/volumes'>
-                        <Icon name='hdd'/>
-                        volumes
-                    </MenuItem>
-                    <MenuItem as={NavLink} to='/admin/events'>
-                        <Icon name='bell'/>
-                        events
-                    </MenuItem>
-                    <MenuItem as={NavLink} to='/admin/library'>
-                        <Icon name='chart area'/>
-                        library
-                    </MenuItem>
-               
-                    <MenuItem as={NavLink} to='/admin/endpoints'>
-                        <Icon name='plug'/>
-                      endpoints
-                    </MenuItem>
-                    <MenuItem as={NavLink} to='/admin/registries'>
-                        <Icon name='database'/>
-                        registries
-                    </MenuItem>
+                   
                 </SideDrawer>
                   <Sidebar.Pusher>
            <div>
